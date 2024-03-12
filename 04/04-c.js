@@ -41,7 +41,8 @@ function fsCallback(err){
         append: 'append  successfull.',
         create: 'writeFile  successfull.',
         read:  'readFile  successfull.',
-        createRecord:  'createRecord done successfully.'
+        createRecord:  'createRecord done successfully.',
+        readRecord: ''
     }
 
     if(err){
